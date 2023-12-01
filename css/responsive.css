@@ -1,0 +1,129 @@
+@media all and (max-width:990px){
+	.main-menu ul li a {
+    color: red;
+    font-size: 13px;
+    font-family: 'arial';
+}
+.main-menu ul li {
+    display: inline-block;
+    padding: 0px 9px;
+}
+.first {
+    flex-basis: 31%;
+    background-color: chocolate;
+    padding: 14px 0px;
+    border-radius: 6px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+}
+.first h3 {
+    margin-left: 43px;
+    font-size: 20px;
+}
+.first p {
+    color: #ffff;
+    font-size: 11px;
+    margin-bottom: 3px;
+    padding: 3px 10px;
+}
+}
+
+@media all and (max-width:700px){
+	.mobile-nav {
+        display: inline-block;
+        background: transparent;
+        border: none;
+        font-size: 25px;
+        float: right;
+    }
+    .mobile-nav span {
+    width: 28px;
+    height: 3px;
+    background: #fff;
+    display: block;
+    margin: 5px 0px;
+    transition: 0.5s;
+}
+    .mobile-nav.open span.three {
+        display: none;
+    }
+    .mobile-nav.open span {
+        margin: 0;
+    }
+    .mobile-nav.open span.one {
+        transform: rotate(45deg);
+    }
+    .mobile-nav.open span.two {
+        transform: rotate(-45deg);
+        margin-top: -2px;
+    }
+.main-menu {
+    text-align: left;
+    position: fixed;
+    background: #704B7D;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+    .main-menu.Navclose {
+        transform: translate(-100%, 0px);
+    }
+    .mobile-nav-heading {
+        padding: 15px 20px;
+        box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+        display: block;
+    }
+    .close-mobile-nav {
+        background: transparent;
+        border: none;
+        font-size: 23px;
+    }
+  .main-menu ul {
+    padding: 28px;
+}
+   .main-menu ul li {
+    display: block;
+    padding: 8px 0px;
+    border-bottom: 1px solid #8862AE;
+    width: 0%;
+}
+   .main-menu ul li a {
+    color: #51188a;
+    font-size: 13px;
+    font-family: 'arial';
+}
+.main-menu ul li a:hover {
+    color: black;
+    transform: scale(1.2);
+}
+    .first{
+        flex-direction: column;
+    }
+    .hero-btn {
+    text-decoration: none;
+    display: inline;
+    border: 1px solid #fff;
+    padding: 7px 3px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.fa.fa-credit-card {
+    font-size: 41px;
+    color: #fff;
+    /* background: black; */
+    float: left;
+}
+}
+
+
+@media all and (max-width: 320px){
+	
+}
+
+
+
+
+
